@@ -6,10 +6,10 @@ This module sets up sitefinity in my "huge" opinion best practice. Note that thi
 -Sets groups pages to redirect to first accesible child page
 -Sets "home" page to redirect to site root "/" 
 ###Caching
--Sets OutputCache Profiles to WaitForPageOutputCacheToFill=true
+-Sets OutputCache Profiles to WaitForPageOutputCacheToFill=true<br/>
 -Sets "Long Cache" profile duration to 24 hours 
 ###Security
--Sets password reset = true
--Sets password retrievel = true
+-Sets password reset = true<br/>
+-Sets password retrievel = true<br/>
 
 For the security items to work, like reset, you need to make sure you have your SMTP setup and set the recoveryMailAddress in Settings > Security > MembershipProviders > Default > Parameters > recoveryMailAddress
