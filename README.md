@@ -14,4 +14,4 @@ This module sets up sitefinity in my "huge" opinion best practice. Note that thi
 * Sets password reset = true<br/>
 * Sets password retrievel = true<br/>
 
-For the security items to work, like reset, you need to make sure you have your SMTP setup and set the recoveryMailAddress in Settings > Security > MembershipProviders > Default > Parameters > recoveryMailAddress
+For the security items to work, like password reset, you need to make sure you have your SMTP setup and set the recoveryMailAddress in Settings > Security > MembershipProviders > Default > Parameters > recoveryMailAddress
