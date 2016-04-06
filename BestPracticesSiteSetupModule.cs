@@ -97,7 +97,12 @@ namespace BestPracticesSiteSetup
 			var configManager = ConfigManager.GetManager();
 			var securityConfig = configManager.GetSection<SecurityConfig>();
 			DataProviderSettings defaultProvider = securityConfig.MembershipProviders["Default"];
+            defaultProvider.Parameters["enablePasswordRetrieval"] = "true";
+            defaultProvider.Parameters["enablePasswordReset"] = "true";
 
+            configManager.Provider.SuppressSecurityChecks = true;
+			configManager.SaveSection(securityConfig);
+			configManager.Provider.SuppressSecurityChecks = false;
 		}
 
 		private void PagesConfigSetup()
