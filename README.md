@@ -5,10 +5,10 @@ This module sets up sitefinity in my "huge" opinion best practice. Note that thi
 * Turns of inline page editing<br/>
 * Sets groups pages to redirect to first accesible child page<br/>
 * Sets "home" page to redirect to site root "/" 
-### Caching
+###Caching
 * Sets OutputCache Profiles to WaitForPageOutputCacheToFill=true<br/>
 * Sets "Long Cache" profile duration to 24 hours 
-### Security
+###Security
 * Sets password reset = true<br/>
 * Sets password retrievel = true<br/>
 
